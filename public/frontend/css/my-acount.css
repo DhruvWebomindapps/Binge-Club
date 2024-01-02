@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-theme{
+    background-color: #f9f3e3;
+}
+
+.cart-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.cart-card{
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 18px 20px;
+}
+.cart-item{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0px 10px;
+}
+
+.cart-item:last-child{
+    border-bottom: none;
+}
+
+.movie-img{
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+}
+.movie-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: center center;
+}
+
+.item-content{
+    padding: 20px 0px 6px 20px;
+}
+.item-content h6{
+   font-size: 14px;
+   margin-bottom: 12px;
+   color: #333;
+}
+.item-content p{
+    font-size: 12px;
+    color: #333;
+    line-height: 1;
+    font-weight: 400;
+ }
+
+ .edit{
+    display: flex;
+    color: #FFAC0D;
+    font-size: 14px;
+ }
+
+ .edit select{
+    width: 75%;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #656565;
+
+ }
+
+ .edit i{
+    width: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+ }
+ .rate {
+   display: flex;
+   justify-content: end;
+}
+ .rate p{
+
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .rate p span{
+    color: #656565;
+    font-size: 13px;
+ }
+
+ .delete{
+    display: flex;
+    justify-content: end;
+    color: #FFAC0D;
+    font-size: 14px;
+    cursor: pointer;
+ }
+ 
+ /* .delete:hover{
+  color: red;
+ } */
+
+ .form-select:focus{
+    box-shadow: none;
+    border-color: #e1e1e1;
+ }
+
+
+ .order-summary{
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+ }
+
+ .order-summary h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+ }
+
+ .order-summary h5 span{
+    color: #FFAC0D;
+ }
+
+ .gst{
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+ }
+
+ .total{
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+ }
+ .total p{
+    font-size: 18px;
+ }
+
+ .book-btn{
+    background-color: #FFAC0D;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .edit select{
+        width: 100%;
+        padding: 6px 5px;
+        font-size: 12px;
+        color: #656565;
+        display: block;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right 0.25rem center;
+        background-size: 10px;
+     }
+     .cart-item{
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .edit select{
+        width: 80%;
+        padding: 6px 5px;
+        font-size: 12px;
+        color: #656565;
+        display: block;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right 0.25rem center;
+        background-size: 10px;
+     }
+}
+
+
+
+
+
+
+ /* new */
+ .login-form-section .form-group{
+   padding: 0px 0px 10px 0px;
+}
+
+.login-form-section form lable {
+   font-size: 14px;
+}
+
+.login-form-section form input {
+   background-color:#f9f3e3;
+   border:none;
+   transition:.25s;
+   border-radius:4px;
+   margin-top: 10px;
+   padding: 12px;
+   font-size: 14px;
+}
+
+.login-form-section form input:focus{
+   box-shadow: none;
+   background-color: #F9F3E3;
+}
+
+.login-form-section form .form-check-label{
+   font-size: 14px;
+   margin: 10px 0px 0px 4px;
+}
+
+.login-form-section form .forgot-text{
+   font-size: 14px;
+   color: #FFAC0D;
+}
+
+.login-page-btn{
+   width: 100%;
+   background: #FFAC0D;
+   margin-top: 15px;
+   padding: 14px;
+   border-radius: 8px;
+   font-size: 16px;
+   color: #000;
+   border: none;
+   }
+
+   .login-bottom-part a{
+       color: #FFAC0D;
+   }
+   
+   .login-bottom-part{
+   text-align: center;
+   margin-top: 20px;
+   }
+
+   .fa-eye{
+       position: absolute;
+       top: 50%;
+       right: 4%;
+       cursor: pointer;
+       color: #292929;
+     }
+
+  .password-input{
+   position: relative;
+  }

@@ -1,0 +1,108 @@
+
+.payment-detail{
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+.payment-detail h4{
+    font-weight: 600;
+}
+
+.form-check-label{
+    font-size: 14px;
+    color: #565656;
+}
+
+.form-check-input:checked {
+    background-color: #FFAC0D;
+    border-color: #FFAC0D;
+}
+ 
+.payment-detail .input-group input{
+    height: 50px;
+    background-color: #F9F3E3;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 10px !important;
+} 
+.payment-detail .input-group select{
+    height: 50px;
+    background-color: #F9F3E3;
+    width: 100%;
+    border: none;
+    outline: none;
+    display: block;
+    padding: 0 15px;
+    border-radius: 10px !important;
+    background-repeat: no-repeat;
+    background-position: right 20px center !important;
+    background-size: 12px;
+} 
+.payment-detail .input-group select:focus{
+    box-shadow: none !important;
+}
+.payment-detail .input-group label{
+    margin-bottom: 7px;
+}
+
+
+
+
+.job-summary{
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+  }
+  
+  .sub-total{
+    font-size: 14px;
+  }
+  
+  .gst{
+    padding-top: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .total{
+    padding-top: 15px;
+  }
+  .total p{
+    font-size: 14px;
+  }
+  
+  .job-summary .book-btn{
+    background-color: #FFAC0D;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 7px 30px -2px #ffaa0d70;
+    cursor: pointer;
+  }
+  
+  .job-summary h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+
+
+
+ .additional-info p{
+    font-size: 12px;
+    color: #565656;
+ }
+ .additional-info p i{
+    color: green;
+    font-size: 16px;
+ }
+ .add-info{
+    height: 20px;
+    border-right: 2px solid #b2b2b2;
+ }

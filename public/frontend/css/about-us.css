@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us-section {
+  padding: 80px 0px 0px 0px;
+}
+
+.about-us-section .about-h {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 0px 0px 20px 0px;
+}
+
+.about-us-section .quotes-section {
+  display: flex;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  padding: 30px 0px;
+}
+
+.about-us-section .quotes-section img {
+  width: 180px;
+  height: auto;
+}
+
+.about-us-section .quotes-section p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.7em;
+}
+
+.about-text-section {
+  padding: 30px 0px;
+}
+
+.about-text-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555555;
+  font-weight: 400;
+}
+
+.about-fst-image {
+  text-align: end;
+  margin-top: 70px;
+}
+.about-fst-image img {
+  width: 80%;
+  height: auto;
+}
+
+/* -------- */
+
+.about-us-overview {
+  padding: 80px 0px 30px 0px;
+}
+
+.about-us-p {
+  padding: 20px 0px 20px 0px;
+}
+
+.about-us-overview h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.about-us-overview p {
+  line-height: 1.7;
+  color: #555555;
+  font-weight: 400;
+}
+
+/* our team */
+
+.our-team1 .item {
+  text-align: center;
+}
+.testimonial-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+.testimonial-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.our-team1 .owl-prev {
+  /* float: left; */
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  border: none !important;
+  color: #000000;
+  border-radius: 50% !important;
+  font-size: 20px;
+  padding: 0px 7px 7px 7px !important;
+  width: 40px;
+  height: 40px;
+  background-color: #fff !important;
+}
+.our-team1 .owl-prev i {
+  color: #000;
+}
+
+.our-team1 .owl-next {
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  border: none;
+  color: #000;
+  border-radius: 50% !important;
+  font-size: 20px;
+  padding: 0px 7px 7px 7px !important;
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+}
+
+.our-team1 .owl-next i {
+  color: #000;
+}
+
+.our-team1 .owl-theme .owl-nav {
+  background: #fff !important;
+  text-decoration: none;
+  border: none !important;
+}
+
+.carousal-line1 .owl_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.carousal-line1 .owl_pagination .owl_dots {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.carousal-line1 .owl_pagination .owl_dots .owl-dot {
+  height: 11px;
+  width: 35px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: transparent;
+}
+.carousal-line1 .owl_pagination .owl_dots .owl-dot::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-30%);
+  background-color: #000;
+}
+.carousal-line1 .owl_pagination .owl_dots .owl-dot.active::before {
+  height: 2px;
+  background-color: #ffac0d;
+}
+.carousal-line1 .owl_pagination #counter {
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.carousal-line1 #startPoint1 {
+  color: #000;
+}
+.carousal-line1 #endPoint1 {
+  color: #000;
+}
+
+.tes-h2 {
+  padding-bottom: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+@media only screen and (max-width: 991px) {
+  .about-fst-image {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .about-us-overview {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-fst-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+}

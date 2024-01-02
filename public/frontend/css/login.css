@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-theme {
+  background-color: #f9f3e3;
+}
+
+/* .login-form-page{
+  height:100vh;
+  background:#e9eef7;
+  font-family:sans-serif;
+} */
+
+/* .spContainer{
+  width:100%;
+  max-width: 600px;
+} */
+
+.login-card {
+  border-radius: 15px;
+  transition: 0.25s;
+  padding: 40px 50px 40px 50px;
+  border: none;
+  background-color: #fff;
+}
+.login-card:hover {
+  transition: 0.25s;
+}
+.login-form-col {
+  transform: scale(0.94);
+}
+
+.login-form-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.login-form-logo a {
+  text-align: center;
+}
+
+.login-form-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.login-card h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.login-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook-btn-login,
+.google-btn-login {
+  border: 2px solid #e9e9e9;
+  padding: 14px 15px 10px 15px;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.google-btn-login img {
+  width: 15px;
+}
+.facebook-btn-login img {
+  width: 15px;
+}
+
+.or-text {
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  margin-right: 20px;
+}
+
+.login-form-section .form-group {
+  padding: 0px 0px 20px 0px;
+}
+
+.login-form-section form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #181818;
+}
+
+.login-form-section form .form-control {
+  /* background-color:#f9f3e3; */
+  border: 1px solid #e9e9e9;
+  transition: 0.25s;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 15px 15px;
+  font-size: 14px;
+}
+
+/* .login-form-section form input:focus{
+    box-shadow: none;
+    background-color: #F9F3E3;
+} */
+
+/* .form-check-input:checked {
+    background: linear-gradient(92.46deg, #FF0059 -2.4%, #FF144C 9.34%, #FF472C 42.87%, #FF6C14 72.14%, #FF8305 95.69%, #FF8B00 110.57%)!important;
+
+} */
+
+/* .login-form-section .form-check-input:checked[type=checkbox] {
+    
+} */
+/* .login-form-section .form-check-input:checked {
+    background: linear-gradient(92.46deg, #FF0059 -2.4%, #FF144C 9.34%, #FF472C 42.87%, #FF6C14 72.14%, #FF8305 95.69%, #FF8B00 110.57%)!important;
+   
+} */
+
+.form-check {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.login-form-section form .form-check-label {
+  font-size: 16px;
+  margin: 4px 0px 0px 8px;
+  color: #181818;
+  font-weight: 400;
+}
+
+.login-form-section form .forgot-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #181818;
+}
+
+.login-page-btn {
+  width: 100%;
+  background: linear-gradient(
+    92.46deg,
+    #ff0059 -2.4%,
+    #ff144c 9.34%,
+    #ff472c 42.87%,
+    #ff6c14 72.14%,
+    #ff8305 95.69%,
+    #ff8b00 110.57%
+  );
+  /* background: linear-gradient(92.46deg, #FF7F00 5.55%, #FFFF00 110.57%); */
+  margin-top: 15px;
+  padding: 15px 15px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+}
+
+.login-bottom-part a {
+  color: #ff6c14;
+  font-weight: 600;
+}
+
+.login-bottom-part {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  cursor: pointer;
+  color: #292929;
+}
+
+.password-input {
+  position: relative;
+}
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+  .login-form-logo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .login-card {
+    padding: 30px 25px 30px 25px;
+  }
+
+  .login-btn-group {
+    row-gap: 20px;
+  }
+
+  .login-btn-group button {
+    width: 100%;
+  }
+
+  .remember-forgot-text .form-check .form-check-label {
+    font-size: 15px;
+  }
+
+  .remember-forgot-text .forgot-text {
+    font-size: 15px !important;
+  }
+
+  .facebook-btn-login,
+  .google-btn-login {
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  .login-btn-group button {
+    width: 100%;
+  }
+  .login-btn-1 {
+    margin-bottom: 10px;
+  }
+  .login-btn-2 {
+    margin-top: 10px;
+  }
+
+  .facebook-btn-login,
+  .google-btn-login {
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+  .login-btn-1 {
+    text-align: end;
+  }
+  .facebook-btn-login,
+  .google-btn-login {
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+  .login-form-col {
+    width: 50%;
+  }
+
+  .login-card {
+    padding: 30px 20px 30px 20px;
+  }
+
+  .login-btn-1 {
+    text-align: end;
+  }
+}
+
+/* Hide the default checkbox */
+.custom-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-check {
+  display: flex;
+  gap: 10px;
+}
+
+/* Create a custom checkbox */
+.custom-check .checkmark {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ff6c14;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.custom-check input:checked ~ .checkmark {
+  /* background: linear-gradient(92.46deg, #ff7f00 5.55%, #ffff00 110.57%); */
+  background: linear-gradient(
+    92.46deg,
+    #ff0059 -2.4%,
+    #ff144c 9.34%,
+    #ff472c 42.87%,
+    #ff6c14 72.14%,
+    #ff8305 95.69%,
+    #ff8b00 110.57%
+  );
+  /* background-color: rgba(245, 24, 24, 0.5); */
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: -1px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  transform-origin: 0px 10px;
+  border-radius: 4px;
+  margin: -1px 10px 0px 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.custom-check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-check .checkmark:after {
+  left: 0.4em;
+  top: 1px;
+  width: 0.35em;
+  height: 0.8em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+  transition: all 500ms ease-in-out;
+}

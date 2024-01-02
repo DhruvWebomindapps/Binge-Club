@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-theme{
+    background-color: #f9f3e3;
+}
+
+.cart-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.cart-card{
+    border-radius: 10px;
+}
+.cart-item{
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.cart-item:last-child{
+    border-bottom: none;
+}
+
+.movie-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+}
+.movie-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    object-position: center center;
+}
+
+.item-content{
+    padding: 20px 0px 6px 20px;
+}
+.item-content h6{
+   font-size: 16px;
+   color: #333;
+}
+.item-content p{
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+ }
+
+ .edit{
+    display: flex;
+    color: #FFAC0D;
+    font-size: 14px;
+ }
+
+ .edit select{
+    width: 75%;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #656565;
+
+ }
+
+ .edit i{
+    width: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+ }
+
+ .rate p{
+
+    font-size: 18px;
+ }
+ .rate p span{
+    color: #656565;
+    font-size: 13px;
+ }
+
+ .delete{
+    display: flex;
+    color: #656565;
+    font-size: 14px;
+    cursor: pointer;
+ }
+ .delete i{
+    width: 20px;
+    font-size: 14px;
+    padding-top: 6px;
+ }
+ .delete:hover{
+  color: red;
+ }
+
+ .form-select:focus{
+    box-shadow: none;
+    border-color: #e1e1e1;
+ }
+
+
+ .order-summary{
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+ }
+
+ .order-summary h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+ }
+
+ .order-summary h5 span{
+    color: #FFAC0D;
+ }
+
+ .gst{
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+ }
+
+ .total{
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+ }
+ .total p{
+    font-size: 18px;
+ }
+
+ .book-btn{
+    background-color: #FFAC0D;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .edit select{
+        width: 100%;
+        padding: 6px 5px;
+        font-size: 12px;
+        color: #656565;
+        display: block;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right 0.25rem center;
+        background-size: 10px;
+     }
+     .cart-item{
+        border-bottom: 1px solid #e1e1e1;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .edit select{
+        width: 80%;
+        padding: 6px 5px;
+        font-size: 12px;
+        color: #656565;
+        display: block;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right 0.25rem center;
+        background-size: 10px;
+     }
+}
+
+
+
+.food-category {
+   border: 1px solid #d4d4d4;
+   border-radius: 6px;
+   height: 100%;
+   margin: 2px;
+}
+
+.food-category .food-img{
+   height: 150px;
+   width: 100%;
+}
+.food-category .food-img img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 6px 6px 0 0;
+}
+.food-category .food-desc{
+   padding: 12px 10px 0 10px;
+}
+.food-category .food-desc h6{
+   font-size: 15px;
+   line-height: 1;
+}
+
+.food-category .food-desc p{
+   font-size: 14px;
+   line-height: 1;
+   color: #656565;
+}
+
+
+
+.owl-prev {
+   /* float: left; */
+   position: absolute;
+   top: 40%;
+   left: 15px;
+   border: none!important;
+   color: #000000;
+   border-radius: 30% !important;
+   font-size: 20px;
+   padding: 0px 7px 7px 7px !important;
+   height: 40px;
+   width: 40px;
+   background-color: #fff !important;
+ }
+.owl-prev i{
+   color: #000;
+ }
+ 
+.owl-next {
+   position: absolute;
+   top: 40%;
+   right: 15px;
+   border: none;
+   color: #000;
+   border-radius: 30% !important;
+   font-size: 20px;
+   padding: 0px 7px 7px 7px !important;
+   background-color: #fff !important;
+   height: 40px;
+   width: 40px;
+ }
+ 
+.owl-next i{
+   color: #000;
+ }
+
+ .owl-theme .owl-nav {
+   background: #fff !important;
+   text-decoration: none;
+   border: none !important;
+ }

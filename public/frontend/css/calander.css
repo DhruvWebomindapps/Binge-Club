@@ -1,0 +1,77 @@
+.calendar-item.dateBySlot.past-date {
+    background: #efefef !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.date__picker .calendar-item.available-date {
+    width: calc(100% / 9);
+    text-align: center;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    cursor: pointer;
+    background-color: #65c297 !important;
+    border-radius: 10px;
+    margin: 5px 9px;
+}
+
+.calendar-item.dateBySlot.available-date.b-t-active {
+    background-color: green !important;
+}
+
+.book_calender ul {
+    padding-left: 0;
+}
+
+.book_calender ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.DisableColor {
+    color: #efefef !important;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    border: 1px solid grey;
+}
+
+.AvailableColor {
+    color:#347c5b3b !important;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    border: 1px solid grey;
+}
+
+.SelectedColor {
+    color: green;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    border: 1px solid grey;
+}
+
+.NotAvailableColor {
+    color: #ff9400;
+}
+/* .dateBySlot{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+} */
+.prev-slide .fa-chevron-left:before,.next-slide .fa-chevron-right{
+    color: black;
+}
+
+.weekday{
+    background: linear-gradient( 92deg, #ff0059 -2.4%, #ff144c 9.34%, #ff472c 42.87%, #ff6c14 72.14%, #ff8305 95.69%, #ff8b00 110.57% ) !important;
+    font-weight: 400;
+    color: #fff !important;
+}
+.year{
+    background: linear-gradient( 92deg, #ff0059 -2.4%, #ff144c 9.34%, #ff472c 42.87%, #ff6c14 72.14%, #ff8305 95.69%, #ff8b00 110.57% ) !important;
+    font-weight: 400;
+    color: #fff !important;
+}
+.left-right-cal:hover{
+    background: linear-gradient( 92deg, #ff0059 -2.4%, #ff144c 9.34%, #ff472c 42.87%, #ff6c14 72.14%, #ff8305 95.69%, #ff8b00 110.57% ) !important;
+    color: #fff !important;
+}
+
+.left-right-cal{
+    color: #ff6c14 !important;
+}

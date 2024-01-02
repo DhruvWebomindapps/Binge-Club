@@ -1,0 +1,132 @@
+.search-bar {
+  display: grid;
+  grid-template-columns: 1fr 3rem;
+  grid-gap: 10px;
+  background-color: #fff;
+  border-radius: 50px;
+  /* border-bottom: 1px solid #807d7d; */
+}
+
+.search-bar > * {
+  padding: 10px 20px 10px 20px;
+}
+
+.search-bar form {
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+  grid-gap: 10px;
+  padding-left: 0.5rem;
+}
+
+.search-bar i {
+  color: #262020;
+  margin-left: 10px;
+}
+
+.search-bar form input[type="search"] {
+  border: 0;
+  font-size: 14px;
+  padding-left: 15px;
+  outline: none;
+  width: 100%;
+  letter-spacing: 1px;
+  background: transparent;
+}
+
+.search-bar button {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  opacity: 0.5;
+}
+
+.faq-page .accordion-button:not(.collapsed) {
+  color: #292929 !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+.faq-page .accordion-item:first-of-type {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.faq-page .accordion-item {
+  border-radius: 13px !important;
+  border: none !important;
+  margin-bottom: 12px;
+}
+
+.faq-page .accordion-item .accordion-button {
+  border-radius: 10px !important;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+
+.faq-page .accordion-body {
+  border-top: 1px solid #d3cecebd;
+  font-size: 15px;
+  color: #181818;
+  padding: 20px !important;
+}
+.nav-pills .nav-link {
+  padding: 10px 26px !important;
+  color: #262020 !important;
+  font-size: 16px !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: linear-gradient(
+    92.46deg,
+    #ff0059 -2.4%,
+    #ff144c 9.34%,
+    #ff472c 42.87%,
+    #ff6c14 72.14%,
+    #ff8305 95.69%,
+    #ff8b00 110.57%
+  );
+  font-weight: 500;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  border-radius: 50px !important;
+  padding: 10px 26px !important;
+}
+
+.nav-item {
+  margin: 8px 20px 15px 0px;
+}
+
+.faq-page .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}
+
+.faq-page .accordion-button::after {
+  background-size: 14px !important;
+}
+
+.faq-page .accordion-button:focus {
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .search-bar {
+    margin-bottom: 20px;
+    height: 60px;
+  }
+  .search-bar i {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-item {
+    margin: 8px 0px 15px 0px;
+  }
+  .nav-pills .nav-link {
+    padding: 10px 17px !important;
+    color: #262020 !important;
+    font-size: 16px !important;
+  }
+}

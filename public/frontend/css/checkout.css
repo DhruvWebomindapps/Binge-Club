@@ -1,0 +1,353 @@
+
+.order-summary {
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+}
+
+.order-summary h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.order-summary p {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.order-summary h5 span {
+    color: #FFAC0D;
+}
+
+.gst {
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.total {
+    padding-top: 15px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.total p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.book-btn {
+    background: linear-gradient(92deg, #FF0059 -2.4%, #FF144C 9.34%, #FF472C 42.87%, #FF6C14 72.14%, #FF8305 95.69%, #FF8B00 110.57%);
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.book-btn:hover {
+    color: #fff;
+}
+
+
+
+.package {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    height: 135px;
+}
+
+.package .pckg-img {
+    height: 100px;
+    width: 100px;
+}
+
+.package .pckg-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+}
+
+.pckg-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.edit-pckg {
+    color: #FF144D;
+    font-weight: 500;
+}
+
+.edit-pckg i {
+    margin-right: 5px;
+}
+.edit-pckg:hover{
+    color: #FF472C;
+}
+
+.pckg-detail {
+    margin-top: -5px;
+    font-size: 15px;
+    color: #555555;
+}
+
+.pckg-detail i {
+    margin-right: 5px;
+}
+
+.addOns {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 22px;
+    padding: 16px;
+    height: 130px;
+}
+.addOns .pckg-img {
+    height: 100px;
+    width: 100px;
+}
+.addOns  .pckg-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+}
+
+.addOns-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 25px;
+    color: #181818;
+
+}
+
+/* .addOns span{
+    font-size: 15px;
+    line-height: 20px;
+} */
+.addOns p {
+    font-size: 15px;
+    line-height: 1.1;
+    margin-top: -10px;
+}
+
+
+
+.qty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qty input {
+    width: 50px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #18181836;
+    outline: none;
+}
+
+.qty .qtyminus {
+    width: 40px;
+    height: 40px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 10px 0 0 10px;
+    background: transparent;
+    border: 1px solid #18181836;
+    border-right: none;
+}
+
+.qty .qtyplus {
+    width: 40px;
+    height: 40px;
+    color: #000;
+    font-size: 14px;
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+    background: transparent;
+    border: 1px solid #18181836;
+    border-left: none;
+}
+
+
+
+
+
+
+
+
+.food-category {
+    border-radius: 10px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.food-category .food-img {
+    height: 120px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background: #eaa4a4;
+}
+
+.food-category .food-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.food-category .food-desc {
+    padding: 12px 10px 14px 10px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.food-category .food-desc .fd-title{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.food-category .food-desc .add {
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid #FF8B00;
+    padding: 7px 4px;
+    /* width: 70px;
+    height: 35px; */
+}
+
+.food-category .food-desc .add span{
+    color: #181818;
+    font-weight: 500;
+    /* background: linear-gradient(92.46deg, #FF0059 -2.4%, #FF144C 9.34%, #FF472C 42.87%, #FF6C14 72.14%, #FF8305 95.69%, #FF8B00 110.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+}
+
+
+
+
+.owl-prev {
+    /* float: left; */
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    border: none !important;
+    color: #000000;
+    border-radius: 100px !important;
+    font-size: 20px;
+    padding: 0px 7px 7px 7px !important;
+    height: 40px;
+    width: 40px;
+    background-color: #fff !important;
+}
+
+.owl-prev i {
+    color: #000;
+}
+
+.owl-next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    border: none;
+    color: #000;
+    border-radius: 100px !important;
+    font-size: 20px;
+    padding: 0px 7px 7px 7px !important;
+    background-color: #fff !important;
+    height: 40px;
+    width: 40px;
+}
+
+.owl-next i {
+    color: #000;
+}
+
+.owl-theme .owl-nav {
+    background: #fff !important;
+    text-decoration: none;
+    border: none !important;
+}
+.price-for-mbl{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .package{
+        height: auto;
+        position: relative;
+    }   
+    .edit-pckg{
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+    .pckg-title{
+        font-size: 16px;
+    }
+    .price-for-mbl{
+        display: block;
+        padding-bottom: 8px;
+    }
+    .price{
+        display: none;
+    }
+    .addOns {
+        height: auto;
+        position: relative;
+    }
+    .qty{
+        position: absolute;
+        bottom: 40px;
+        left: 15px;
+    }
+    .addOns p{
+        margin-top: 0;
+    }
+    .addOns-title{
+        font-size: 16px;
+    }
+    .qty .qtyminus{
+        height: 30px;
+        width: 30px;
+    }
+    .qty input {
+        width: 40px;
+        height: 30px;
+    }
+    .qty .qtyplus {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .package{
+        height: auto;
+    }   
+    .addOns {
+        height: auto;
+    }
+}
