@@ -70,7 +70,7 @@ class BookingController extends Controller
             //validate slot name 
             $timeController = (new TimeSlotController);
             if (!in_array($screen_slot_name, $request->slot_name) || !$timeController->getSlotActive($date, $screen_id, $slot_details->start_time, $screen_slot_name)) {
-                die('oops Something went wrong try again');
+                die('Sorry to inform ,This slot is booked already');
             }
             $startTime = \DateTime::createFromFormat('h:i A', $slot_details->start_time);
             $endTime = \DateTime::createFromFormat('h:i A', $slot_details->end_time);
